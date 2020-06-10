@@ -1,0 +1,27 @@
+<div  (click)="showProduct()" *ngIf="product" class="card" style="width: 15rem;">
+    <img  style="height:150px" [src]="product.image" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.name}}</h5>
+      <p  class="card-text">{{product.price|discount:20|currency}}</p>
+    </div>
+  </div>
+  
+<!--    currency and date  pipe example
+
+    <p  class="card-text">{{product.price|discount:20|currency}}</p>
+    <p  class="card-text">{{product.price|discount:20|currency : 'CAD'}}</p>
+    <p  class="card-text">{{product.price|discount:20|currency:'CAD' : 'symbol'}}</p>
+    <p  class="card-text">{{product.price|discount:20|currency: 'CAD' : 'symbol-narrow'}}</p>
+    <p  class="card-text">{{product.price|discount:20|currency : 'CAD' : 'code' : '.5'}}</p>
+
+    <p> default date {{myDate | date}}</p>
+    <p> Short date {{myDate | date : 'short'}}</p>
+    <p> Medium date {{myDate | date : 'medium'}}</p>
+
+
+-->
+  <!-- data = {{}}, attribute = [], event =()  -->
+
+  <!-- [] will make the right hand side of assignment as class property -->
+  <!-- if product contains something that will be evaluated to true -->
+  <!-- Structural Directives -->

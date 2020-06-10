@@ -1,0 +1,23 @@
+<div class="container">
+    <section class="sample-app-content">
+        <!-- madel-based form example-->
+        <form [formGroup]="form" >
+        <div class="center from-group">
+            <h1>Login Here</h1>
+            <p> User Name: 
+            <input formControlName="email" placeholder="Email" [(ngModel)]="user.email" class="form-control">
+            <!--input formControlName="email" placeholder="Email" [(ngModel)]="user.email" [ngModelOption]="{updateOn : 'blur'}" class="form-control"-->
+
+            </p>
+            <p>
+            <label> Password : </label>
+            <input formControlName="password" placeholder="Password" class="form-control" [(ngModel)]="user.password" type="password">
+           </p>
+           <div>
+            <a routerLink="/forgot">Forgot Password? Click Here</a>
+            </div>
+            <button type="submit" [disabled]="!form.valid" (click)="login()" class="btn btn-primary">Login</button>
+        </div>
+        </form>
+    </section>
+    </div>

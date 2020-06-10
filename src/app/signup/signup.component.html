@@ -1,0 +1,22 @@
+<div class="Container center">
+    <div>
+        <form>
+            <div>
+                <h1>Signup Here</h1>
+            </div>
+            <div>
+              <input placeholder="Email" [(ngModel)]="user.email" class="form-control">
+            </div>
+            <div>
+               <input placeholder="Name" [(ngModel)]="user.name" class="form-control">
+            </div>
+            <div>
+               <input placeholder="Password" class="form-control" [(ngModel)]="user.password" type="password">
+            </div>
+            <div>
+              <button (click)="signup()" class="btn btn-primary">Register</button>
+            </div>
+        </form>
+</div>
+</div>
+

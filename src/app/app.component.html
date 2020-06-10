@@ -1,0 +1,29 @@
+<div >
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link " routerLnk="mobie" routerLinkActive="active">Mobile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="pantry" routerLinkActive="active"> Pantry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="vegitable" routerLinkActive="active" >Vegitable </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" routerLink="newReleas">NewReleas</a>
+        </li>
+      </ul>
+</div>
+ 
+<div>
+    <!-- setting up animation And states-->
+    <p>animation demo </p>
+    <!-- event binding n animation -->
+    <P [@myAwosomeAnimation]= 'state' (click) = "animateMe()">this is a test animation example</P>
+</div>
+
+<div>
+    <p> {{numStudent}} </p>
+<button (click)="numStudent = numStudent+1"> Add product</button>
+</div>
+<app-productlist></app-productlist>

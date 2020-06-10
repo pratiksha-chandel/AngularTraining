@@ -1,0 +1,33 @@
+<!--
+// Created By: Pratiksha Chandel 
+// Project Training : AIG Ui TRAINING 
+// Topic cover : 
+-->
+<div>
+<div *ngFor="let cartitem of cart" class="row">
+
+    <div class="col-8">
+        <img [src]="cartitem.image" style="height:50px;width:50px">
+        <label>{{cartitem.name}}}</label>
+        <label>{{cartitem.price}}}</label> 
+    </div>
+    <div class="col-4">
+        <button class="btn btn-danger">Remove</button>
+    </div>
+    
+</div>
+
+
+<div class="row">
+    <div  class="col-9">
+        Total Price :{{'100'}}
+    </div>
+    <div class="col-3">
+        <button (click)="checkout()" class="btn btn-success">Checkout</button>
+    </div>
+    
+</div>
+</div>
+
+
+

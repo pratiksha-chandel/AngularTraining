@@ -1,0 +1,32 @@
+<!-- By : Pratiksha Chandel-->
+<!-- Project : AIG-->
+<!-- Creating & Maintaining Forms -->
+
+<div class=" container center">
+    <form #oderForm="ngForm">
+    <div  >
+        <h1>Place Your Order Here</h1>
+        <div class="from-group">
+            <input #orderName="ngModel" placeholder="Name" [(ngModel)]="order.name" class="form-control" required>
+        </div>
+        <P> CLASS NAME : valid{{orderName.valid}} pristine{{orderName.pristine}} touched{{orderName.touched}}</P>
+        
+        <div [hidden]="orderName.valid || orderName.pristine" class="alert  alert-danger">  Please enter name field is required </div>
+        <div class="from-group">
+            <input placeholder="Area" class="form-control" [(ngModel)]="order.area">
+        </div>
+        <div class="from-group"> 
+            <input placeholder="Pincode" class="form-control" [(ngModel)]="order.pincode">
+        </div>
+        <div class="from-group">
+            <input placeholder="Phone" class="form-control" [(ngModel)]="order.phone">
+        </div>
+        <div class="from-group">
+            <button  [disabled]= "!oderForm.form.valid" (click)="placeOrder()"  class="btn btn-primary">Place Order</button>
+        </div>
+    </div>
+    </form>
+</div>
+    
+  <!---->
+    

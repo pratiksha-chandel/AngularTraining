@@ -1,0 +1,189 @@
+<!-- 
+    created by: Pratiksha
+    Date: 9 june 2020
+    Practicing bootstarp component use in ANgular project -->
+    
+<!-- Bootstrap Nav bar -->
+<div class="container-fluid">
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> News</a>
+        </li>
+      </ul>
+</div>
+<!--Bootstarp Grid management and bootatrap Components -->
+
+<div class="container">
+    <div class="row">
+        <div class=" col-sm-12 col-md-6 col-lg-12">
+            <div class ="col-md-3">
+               <h1>Welcome to the  <span class="badge badge-secondary"> Angular Traing </span></h1>
+            </div>
+            <div class ="col-md-3">
+             </div>
+        </div>
+
+            <!-- ***********  Used bootstrap form component *************** -->
+        <div class=" col-sm-12 col-md-6 col-lg-12">
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Select City</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Pune</option>
+                    <option>Banglore</option>
+                    <option>Hydrabad</option>
+                    <option>Gurgaon</option>
+                    <option>Kolkatta</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Select Role </label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>Developer</option>
+                    <option>Tester</option>
+                    <option>Manager</option>
+                    <option>Qa</option>
+                    <option>Admin</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Enter Address</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+      
+         </div>
+    <div>  
+</div>
+
+<!-- *******************************************************************************-->
+<div class="container-fluid">
+   <!-- Section 1 -->
+  <section id="AboutSection">
+    <div class="row">
+        <div class="about">
+           <P>
+               Who we are 
+               Happiness is when what you think, what you say, and what you do are in harmony.
+           </P>
+        </div>
+    </div>
+  </section>  
+
+  <!--section 2-->
+  <section id="ContactUsSection">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+              </div>
+              
+              <label for="basic-url">Your vanity URL</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                </div>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+              </div>
+              
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <div class="input-group-append">
+                  <span class="input-group-text">.00</span>
+                </div>
+              </div>
+              
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">With textarea</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+         </div>
+         <div class= "col-md-6">
+
+         </div>
+      </div>
+  </section>
+
+  <!-- section 3 -->
+
+  <section id="servicesSection">
+     <div class="row">
+         <div class=" col-sm-12 col-md-12 col-lg-12">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Our Service is to save water 
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Our sevice to save Animal
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Our service is to save the World
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+         </div>
+     </div>
+  </section>
+
+</div>
