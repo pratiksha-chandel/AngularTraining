@@ -9,7 +9,9 @@ import {MatTableModule} from '@angular/material/table';
 
 var adminroutes : Routes = [
   {path:'',component:AdminComponent},
-  {path:'pantry',component:PantryComponent}
+  {path:'pantry',component:PantryComponent},
+  {path:'mobile',component:MobileViewComponent},
+  {path:'vegitable',component:VegitableComponent}
 ]
 
 @NgModule({
