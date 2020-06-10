@@ -1,5 +1,5 @@
 // Created By: Pratiksha Chandel 
-// Project Training : AIG Ui TRAINING 
+// Project Training : Ui TRAINING 
 // Topic cover : parent child calling ,routing,Attaching Animtion state,transitions,keyframe
 
 import { Component , Output} from '@angular/core';

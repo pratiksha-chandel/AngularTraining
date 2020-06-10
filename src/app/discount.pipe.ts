@@ -1,6 +1,6 @@
 
 // Created By: Pratiksha Chandel 
-// Project Training : AIG Ui TRAINING 
+// Project Training :  Ui TRAINING 
 // Topic cover : Pipes 
 
 import {Pipe , PipeTransform} from "@angular/core"

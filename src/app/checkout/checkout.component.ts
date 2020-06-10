@@ -1,6 +1,6 @@
 
 // By : Pratiksha Chandel
-// Project : AIG
+// Project : 
 // Credits: Using Ashu Lethi end point API for testing application. 
 
 import { Component, OnInit } from '@angular/core';

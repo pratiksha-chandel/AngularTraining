@@ -1,5 +1,5 @@
 // Created By: Pratiksha Chandel 
-// Project Training : AIG Ui TRAINING 
+// Project Training :  Ui TRAINING 
 // Topic cover : Angular configuration set up for component imports ,providers ,and modules .
 
 import { BrowserModule } from '@angular/platform-browser';

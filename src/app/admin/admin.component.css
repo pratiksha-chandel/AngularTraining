@@ -15,3 +15,9 @@ table, th, td {
     color: white;
     background-color: black;
   }
+
+  ol, ul, li 
+  {
+      margin: 20px;
+
+  }

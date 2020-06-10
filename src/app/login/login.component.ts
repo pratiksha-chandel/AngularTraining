@@ -1,4 +1,4 @@
-// AIGProjectPoc
+// AnularProjectPoc
 // Project development Created by: Pratiksha Chandel 
 
 import { Component, OnInit } from '@angular/core';

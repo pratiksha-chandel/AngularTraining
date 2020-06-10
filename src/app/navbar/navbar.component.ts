@@ -1,5 +1,5 @@
 
-// AIGProjectPoc
+// AngularProjectPoc
 // Project development Created by: Pratiksha Chandel 
 
 import {Component} from "@angular/core" // all building blocks
@@ -14,7 +14,7 @@ var name = "Pratiksha Chandel "  //variable
     templateUrl:'./navbar.component.html'
 })
 export class NavbarComponent {
-projectname = "AIG Shopping Kart"
+projectname = "Pratiksha Shopping Kart"
 isloggedin  // property 
 constructor(private cs : CommonService){
 

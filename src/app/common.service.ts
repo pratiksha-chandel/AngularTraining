@@ -1,5 +1,5 @@
 // Created By: Pratiksha Chandel 
-// Project Training : AIG Ui TRAINING 
+// Project Training : Ui TRAINING 
 // Topic cover : services, writing canActivate call 
 
 
